@@ -13,7 +13,7 @@ dependencies: [
 ]
 ```
 ## Quick Start
-Use `OverFullScreenSheet` like [.sheet(_ item)](https://developer.apple.com/documentation/swiftui/view/sheet(item:ondismiss:content:)/), [.sheet(isPresented)](https://developer.apple.com/documentation/swiftui/view/sheet(item:ondismiss:content:)/)  
+Use `OverFullScreenSheet` like [.sheet(item)](https://developer.apple.com/documentation/swiftui/view/sheet(item:ondismiss:content:)/), [.sheet(isPresented)](https://developer.apple.com/documentation/swiftui/view/sheet(item:ondismiss:content:)/).
 ```swift
 .overFullScreenSheet(item: selectedItem) { item in
        ZStack {
