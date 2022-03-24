@@ -3,7 +3,7 @@
 ## Installation
 [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
 
-> Xcode 11+ is required to build SnapKit using Swift Package Manager.
+> Xcode 11+ is required to build `OverFullScreenSheet` using Swift Package Manager.
 
 To integrate `OverFullScreenSheet` into your Xcode project using Swift Package Manager, add it to the dependencies value of your `Package.swift`:
 
