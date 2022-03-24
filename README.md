@@ -24,11 +24,11 @@ Use `OverFullScreenSheet` like [.sheet(item)](https://developer.apple.com/docume
 }
 ```
 ```swift
-.overFullScreenSheet(item: selectedItem) { item in
+.overFullScreenSheet(isPresented: $show) {
        ZStack {
         Color.black
             .opacity(0.3)
-        Text(item)
+        Text("Hello World")
     }
 }
 ```
